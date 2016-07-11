@@ -23,7 +23,7 @@ import os
 import requests
 
 BASE_URL = "http://www.taste-kit.com/api/v1"
-API_KEY = os.environ.get("TASTEKIT_API_KEY", "1bbcec95ef775e81")
+API_KEY = os.environ.get("TASTEKIT_API_KEY", "1aacec95ef775e81")
 
 PARAMS = {
     "token": API_KEY
